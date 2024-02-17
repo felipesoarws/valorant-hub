@@ -2,7 +2,10 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        Made by <a href="https://github.com/felipesoarws">@felipesoarws</a>
+        Made by{' '}
+        <a target="_blank" href="https://github.com/felipesoarws">
+          @felipesoarws
+        </a>
       </p>
     </footer>
   );
