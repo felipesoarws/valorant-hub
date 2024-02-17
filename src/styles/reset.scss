@@ -7,6 +7,29 @@
   text-decoration: none;
 }
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    top,
+    #e4f5fc 0%,
+    #bfe8f9 50%,
+    #9fd8ef 51%,
+    #6f72ca 100%
+  );
+}
+
 h1 {
   font-family: 'Anton', sans-serif;
 }
@@ -108,29 +131,6 @@ body {
     @media (min-width: 1024px) {
       width: 84vw;
     }
-  }
-
-  ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: transparent;
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar {
-    width: 2px;
-    background-color: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #fff;
-    background-image: -webkit-linear-gradient(
-      top,
-      #e4f5fc 0%,
-      #bfe8f9 50%,
-      #9fd8ef 51%,
-      #6f72ca 100%
-    );
   }
 
   footer {
