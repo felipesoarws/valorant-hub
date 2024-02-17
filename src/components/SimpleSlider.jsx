@@ -1,8 +1,6 @@
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import Carousel from 'react-elastic-carousel';
-
 import cardAgentBG from '../assets/card_bg.webp';
 
 class SimpleSlider extends Component {
@@ -44,7 +42,7 @@ class SimpleSlider extends Component {
     }
 
     return (
-      <Carousel breakPoints={this.breakPoints} itemPadding={[0, 0]}>
+      <div>
         {arr.map((agent, index) => (
           <Link
             to={`/agents/${agent.displayName.toLowerCase()}/${agent.uuid}`}
@@ -63,7 +61,7 @@ class SimpleSlider extends Component {
             </div>
           </Link>
         ))}
-      </Carousel>
+      </div>
     );
   }
 }
