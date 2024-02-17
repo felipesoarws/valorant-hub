@@ -11,24 +11,9 @@ class SimpleSlider extends Component {
     fetch('https://valorant-api.com/v1/agents')
       .then((response) => response.json())
       .then((agentsList) => {
+        console.log(agentsList);
         this.setState({ agents: agentsList.data });
       });
-  }
-
-  constructor(props) {
-    super(props);
-    this.breakPoints = [
-      { width: 1, itemsToShow: 1 },
-      { width: 550, itemsToShow: 2, itemsToScroll: 3, pagination: false },
-      { width: 768, itemsToShow: 3, itemsToScroll: 4 },
-      { width: 850, itemsToShow: 3, itemsToScroll: 3 },
-      { width: 910, itemsToShow: 4, itemsToScroll: 3 },
-      { width: 1024, itemsToShow: 5, itemsToScroll: 3 },
-      { width: 1070, itemsToShow: 5, itemsToScroll: 3 },
-      { width: 1150, itemsToShow: 5, itemsToScroll: 4 },
-      { width: 1450, itemsToShow: 6 },
-      { width: 1750, itemsToShow: 7 },
-    ];
   }
 
   render() {
@@ -42,7 +27,7 @@ class SimpleSlider extends Component {
     }
 
     return (
-      <div>
+      <div className="flex">
         {arr.map((agent, index) => (
           <Link
             to={`/agents/${agent.displayName.toLowerCase()}/${agent.uuid}`}
@@ -50,7 +35,7 @@ class SimpleSlider extends Component {
           >
             <div className="main__agent" key={index}>
               <div className="main__agent__bg">
-                <img src={cardAgentBG} alt="" />
+                <img className="bg" src={cardAgentBG} alt="" />
               </div>
               <div className="main__agent__portait">
                 <img src={agent.fullPortrait} alt="" />

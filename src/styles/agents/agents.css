@@ -204,6 +204,13 @@ main.agents__scss .main__agents {
   padding: 1rem;
   width: 100%;
 }
+main.agents__scss .main__agents .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 @media (min-width: 425px) {
   main.agents__scss .main__agents {
     margin: 1rem 0rem;
