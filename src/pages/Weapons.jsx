@@ -22,6 +22,7 @@ import cardAgentBG from '../assets/card_bg.webp';
 import WeaponSkins from './WeaponSkins';
 import Footer from '@/components/Footer';
 import DesktopMenu from '@/components/DesktopMenu';
+import MobileMenu from '@/components/MobileMenu';
 
 export default function Weapons() {
   const [weapons, setWeapons] = useState([]);
@@ -65,57 +66,10 @@ export default function Weapons() {
     setCategories(categoriesArr);
   };
 
-  const showMobileMenu = () => {
-    const menuMobile = document.querySelector('.menu__mobile');
-
-    if (menuMobile.classList[1] === 'show__menu') {
-      menuMobile.classList.remove('show__menu');
-    } else {
-      menuMobile.classList.add('show__menu');
-    }
-  };
-
   return (
     <div className="App">
       <div className="bg fade-out">
         <img src={valorantBG3} alt="background"></img>
-      </div>
-      <div className="menu__mobile">
-        <nav>
-          <ul>
-            <div className="link">
-              {' '}
-              <Link to="/">
-                <BiUserPin />
-                <li>Agents</li>
-              </Link>
-            </div>
-            <div className="link selected">
-              {' '}
-              <Link to="/weapons">
-                <RiKnifeLine />
-
-                <li>Weapons</li>
-              </Link>
-            </div>
-            <div className="link ">
-              {' '}
-              <Link to="/maps">
-                <TbMapSearch />
-
-                <li>Maps</li>
-              </Link>
-            </div>
-            <div className="link ">
-              {' '}
-              <Link to="/ranks">
-                <AiOutlineTrophy />
-
-                <li>Ranks</li>
-              </Link>
-            </div>
-          </ul>
-        </nav>
       </div>
 
       <header>
@@ -125,8 +79,8 @@ export default function Weapons() {
               <img src={valorantLOGO} alt="logo" />
             </Link>
           </div>
-          <div className="header__menu__icon" onClick={showMobileMenu}>
-            <BiMenuAltRight />
+          <div className="header__menu__icon">
+            <MobileMenu />
           </div>
         </div>
         <div className="header__menu__desktop">

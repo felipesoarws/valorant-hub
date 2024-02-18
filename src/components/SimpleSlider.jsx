@@ -11,7 +11,6 @@ class SimpleSlider extends Component {
     fetch('https://valorant-api.com/v1/agents')
       .then((response) => response.json())
       .then((agentsList) => {
-        console.log(agentsList);
         this.setState({ agents: agentsList.data });
       });
   }

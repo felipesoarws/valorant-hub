@@ -20,64 +20,17 @@ import { useEffect } from 'react';
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG from '../assets/map_bg5.webp';
 import DesktopMenu from '@/components/DesktopMenu';
+import MobileMenu from '@/components/MobileMenu';
 
 const Home = () => {
   useEffect(() => {
     document.title = `Valorant Hub | @felipesoarws`;
   });
 
-  const showMobileMenu = () => {
-    const menuMobile = document.querySelector('.menu__mobile');
-
-    if (menuMobile.classList[1] === 'show__menu') {
-      menuMobile.classList.remove('show__menu');
-    } else {
-      menuMobile.classList.add('show__menu');
-    }
-  };
-
   return (
     <div>
       <div className="bg fade-out">
         <img src={valorantBG} alt="background"></img>
-      </div>
-
-      <div className="menu__mobile">
-        <nav>
-          <ul>
-            <div className="link">
-              {' '}
-              <Link to="/agents">
-                <BiUserPin />
-                <li>Agents</li>
-              </Link>
-            </div>
-            <div className="link">
-              {' '}
-              <Link to="/weapons">
-                <RiKnifeLine />
-
-                <li>Weapons</li>
-              </Link>
-            </div>
-            <div className="link">
-              {' '}
-              <Link to="/maps">
-                <TbMapSearch />
-
-                <li>Maps</li>
-              </Link>
-            </div>
-            <div className="link">
-              {' '}
-              <Link to="/ranks">
-                <AiOutlineTrophy />
-
-                <li>Ranks</li>
-              </Link>
-            </div>
-          </ul>
-        </nav>
       </div>
 
       <header className="agents__scss">
@@ -87,8 +40,8 @@ const Home = () => {
               <img src={valorantLOGO} alt="logo" />
             </Link>
           </div>
-          <div className="header__menu__icon" onClick={showMobileMenu}>
-            <BiMenuAltRight />
+          <div className="header__menu__icon">
+            <MobileMenu />
           </div>
         </div>
         <div className="header__menu__desktop">
