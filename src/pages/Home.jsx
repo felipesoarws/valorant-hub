@@ -8,6 +8,7 @@ import { TbMapSearch } from 'react-icons/tb';
 import { RiKnifeLine } from 'react-icons/ri';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineTrophy } from 'react-icons/ai';
+import { IoMdCalendar } from 'react-icons/io';
 
 // components
 import Footer from '@/components/Footer';
@@ -61,17 +62,28 @@ const Home = () => {
 
       <main className="home__scss">
         <div className="main__title">
-          <h1>Home</h1>
+          <h1>Welcome!</h1>
           <p>See the main news from the competitive world of Valorant!</p>
+          <span>*updated weekly.</span>
         </div>
         <div className="home__main__content">
           <div className="main__content__news">
             {NewsData.data.segments.map((news, index) => (
               <div className="main__content__news__item" key={index}>
                 <div>
+                  <div className="main__content__news__item__date">
+                    <IoMdCalendar />
+                    <p>{news.date}</p>
+                  </div>
                   <div className="main__content__news__item__title">
                     <h2>{news.title}</h2>
-                    <span>{news.description} points</span>
+                    <p>{news.description}</p>
+                  </div>
+
+                  <div className="main__content__news__item__link">
+                    <Link to={'https://vlr.gg' + news.url_path} target="_blank">
+                      Check the full article.
+                    </Link>
                   </div>
                 </div>
               </div>
