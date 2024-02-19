@@ -20,7 +20,7 @@ import cardAgentBG from '../assets/card_bg.webp';
 
 // components
 import WeaponSkins from './WeaponSkins';
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
 import DesktopMenu from '@/components/DesktopMenu';
 import MobileMenu from '@/components/MobileMenu';
 
@@ -135,7 +135,7 @@ export default function Weapons() {
           ))}
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 }

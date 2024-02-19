@@ -15,11 +15,11 @@ const DesktopMenu = ({ name }) => {
   return (
     <nav className="">
       <ul>
-        <div className={`link ${name == 'home' ? 'selected' : ''}`}>
+        <div className={`link ${name == 'news' ? 'selected' : ''}`}>
           {' '}
           <Link to="/">
             <FiHome />
-            <li>Home</li>
+            <li>News</li>
           </Link>
         </div>
         <div className={`link ${name == 'agents' ? 'selected' : ''}`}>

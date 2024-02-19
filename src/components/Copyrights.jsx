@@ -1,14 +1,14 @@
-const Footer = () => {
+const Copyrights = () => {
   return (
-    <footer>
+    <div className="copyrights">
       <p>
         Made by{' '}
         <a target="_blank" href="https://github.com/felipesoarws">
           @felipesoarws
         </a>
       </p>
-    </footer>
+    </div>
   );
 };
 
-export default Footer;
+export default Copyrights;

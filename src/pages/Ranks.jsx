@@ -15,7 +15,7 @@ import { useEffect, useState } from 'react';
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG2 from '../assets/map_bg4.webp';
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
 import DesktopMenu from '@/components/DesktopMenu';
 import MobileMenu from '@/components/MobileMenu';
 
@@ -85,7 +85,7 @@ export default function Ranks() {
           ))}
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 }

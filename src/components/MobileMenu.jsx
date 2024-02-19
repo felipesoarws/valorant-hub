@@ -32,10 +32,10 @@ const MobileMenu = ({ name }) => {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="menu-content">
             <DropdownMenuItem
-              className={`link ${name == 'home' ? 'selected' : ''}`}
+              className={`link ${name == 'news' ? 'selected' : ''}`}
             >
               <Link to="/" className="link-item">
-                <li>Home</li>
+                <li>News</li>
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem

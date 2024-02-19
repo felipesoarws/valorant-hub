@@ -11,7 +11,9 @@ import { AiOutlineTrophy } from 'react-icons/ai';
 import { IoMdCalendar } from 'react-icons/io';
 
 // components
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
+import DesktopMenu from '@/components/DesktopMenu';
+import MobileMenu from '@/components/MobileMenu';
 
 // hooks
 import { Link } from 'react-router-dom';
@@ -20,8 +22,7 @@ import { useEffect, useState } from 'react';
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG from '../assets/map_bg5.webp';
-import DesktopMenu from '@/components/DesktopMenu';
-import MobileMenu from '@/components/MobileMenu';
+import valorantWallpaper from '../assets/wallpaper1.webp';
 
 // stats
 import NewsData from '../stats/news/news.json';
@@ -35,6 +36,10 @@ const Home = () => {
     <div>
       <div className="bg fade-out">
         <img src={valorantBG} alt="background"></img>
+      </div>
+
+      <div className="bg-1 fade-in">
+        <img src={valorantWallpaper} alt="background"></img>
       </div>
 
       <header className="agents__scss">
@@ -55,12 +60,12 @@ const Home = () => {
             </Link>
           </div>
           <div className="menu__desktop">
-            <DesktopMenu name="home" />
+            <DesktopMenu name="news" />
           </div>
         </div>
       </header>
 
-      <main className="home__scss">
+      <main>
         <div className="main__title">
           <h1>Welcome!</h1>
           <p>See the main news from the competitive world of Valorant!</p>
@@ -91,7 +96,7 @@ const Home = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 };

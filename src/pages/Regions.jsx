@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG2 from '../assets/map_bg6.webp';
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
 import DesktopMenu from '@/components/DesktopMenu';
 import BrazilMap from '../assets/brazilmap.png';
 import EuropeMap from '../assets/europemap.png';
@@ -146,7 +146,7 @@ export default function Regions() {
           </div>
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 }

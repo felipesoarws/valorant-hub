@@ -12,7 +12,7 @@ import '../styles/weaponSkins/weapon_skins.scss';
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG from '../assets/map_bg3.webp';
 import cardAgentBG from '../assets/card_bg.webp';
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
 
 export default function WeaponSkins() {
   const [skins, setSkins] = useState([]);
@@ -88,7 +88,7 @@ export default function WeaponSkins() {
           ))}
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 }

@@ -16,13 +16,14 @@ import { useEffect } from 'react';
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG from '../assets/map_bg.webp';
+import valorantWallpaper from '../assets/wallpaper2.webp';
 
 // carousel
 import SimpleSlider from '../components/SimpleSlider';
 
 // pages
 import DetailedAgent from './DetailedAgent';
-import Footer from '@/components/Footer';
+import Copyrights from '@/components/Copyrights';
 import DesktopMenu from '@/components/DesktopMenu';
 import MobileMenu from '@/components/MobileMenu';
 
@@ -35,6 +36,10 @@ const Agents = () => {
     <div>
       <div className="bg fade-out">
         <img src={valorantBG} alt="background"></img>
+      </div>
+
+      <div className="bg-1 fade-in">
+        <img src={valorantWallpaper} alt="background"></img>
       </div>
 
       <header className="agents__scss">
@@ -72,7 +77,7 @@ const Agents = () => {
           </Routes>
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 };

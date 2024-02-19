@@ -10,7 +10,7 @@ import '../styles/detailedAgent/detailed_agent.scss';
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
 import valorantBG from '../assets/map_bg.webp';
-import Footer from '../components/Footer';
+import Copyrights from '../components/Copyrights';
 
 export default function DetailedAgent() {
   const navigate = useNavigate();
@@ -92,7 +92,7 @@ export default function DetailedAgent() {
           </div>
         </div>
       </main>
-      <Footer />
+      <Copyrights />
     </div>
   );
 }
