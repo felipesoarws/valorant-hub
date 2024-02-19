@@ -14,7 +14,7 @@ import Footer from '@/components/Footer';
 
 // hooks
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';
@@ -23,8 +23,14 @@ import DesktopMenu from '@/components/DesktopMenu';
 import MobileMenu from '@/components/MobileMenu';
 
 const Home = () => {
+  const [maps, setMaps] = useState([]);
+
   useEffect(() => {
     document.title = `Valorant Hub | @felipesoarws`;
+
+     fetch('https://vlrggapi.vercel.app/news')
+      .then((res) => res.json())
+      .then((data) => setMaps(data.data)); 
   });
 
   return (

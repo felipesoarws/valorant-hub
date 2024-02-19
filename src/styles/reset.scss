@@ -48,12 +48,10 @@ body {
     margin: 0.8rem 0;
     border: 0;
     outline: 0;
-    background-color: rgba(111, 114, 202, 0.2);
     padding: 0.3rem 0.5rem;
     border-radius: 0.4rem;
 
     &:hover {
-      box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.5);
       .link-item {
         color: white;
       }
@@ -111,6 +109,47 @@ body {
       }
 
       .header__menu__icon {
+        .link {
+          z-index: 999999;
+          margin: 0.8rem 0;
+          border: 0;
+          outline: 0;
+          background-color: rgba(111, 114, 202, 0.2);
+          padding: 0.3rem 0.5rem;
+          border-radius: 0.4rem;
+
+          &:hover {
+            box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.5);
+            .link-item {
+              color: white;
+            }
+          }
+
+          &.selected {
+            .link-item {
+              color: white;
+            }
+          }
+
+          .link-item,
+          svg {
+            font-size: 1rem;
+            color: #a4a2b0;
+            transition: all 0.7s ease-in-out;
+          }
+
+          .link-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.3rem;
+
+            svg {
+              transform: translateY(0.1rem);
+            }
+          }
+        }
+
         @media (min-width: 768px) {
           display: none;
         }
@@ -162,7 +201,7 @@ body {
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: 2rem;
+          gap: 1rem;
 
           .link {
             margin: 0.8rem 0;
