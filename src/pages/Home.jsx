@@ -22,15 +22,12 @@ import valorantBG from '../assets/map_bg5.webp';
 import DesktopMenu from '@/components/DesktopMenu';
 import MobileMenu from '@/components/MobileMenu';
 
-const Home = () => {
-  const [maps, setMaps] = useState([]);
+// stats
+import NewsData from '../stats/news/news.json';
 
+const Home = () => {
   useEffect(() => {
     document.title = `Valorant Hub | @felipesoarws`;
-
-     fetch('https://vlrggapi.vercel.app/news')
-      .then((res) => res.json())
-      .then((data) => setMaps(data.data)); 
   });
 
   return (
@@ -65,9 +62,22 @@ const Home = () => {
       <main className="home__scss">
         <div className="main__title">
           <h1>Home</h1>
-          <p>asdasdasdasd</p>
+          <p>See the main news from the competitive world of Valorant!</p>
         </div>
-        <div className="main__content"></div>
+        <div className="home__main__content">
+          <div className="main__content__news">
+            {NewsData.data.segments.map((news, index) => (
+              <div className="main__content__news__item" key={index}>
+                <div>
+                  <div className="main__content__news__item__title">
+                    <h2>{news.title}</h2>
+                    <span>{news.description} points</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

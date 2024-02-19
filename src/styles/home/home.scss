@@ -127,9 +127,21 @@ main.home__scss {
     }
   }
 
-  .main__content {
-    margin: 1rem 1rem;
-    padding: 1rem;
-    width: 100%;
+  .home__main__content {
+    margin: 2rem 0;
+
+    .main__content__news {
+      &__item {
+        margin: 3rem 0;
+
+        &__title {
+          h2 {
+            margin: 0.5rem 0;
+            color: white;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
   }
 }

@@ -12,18 +12,8 @@ import { BiWorld } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 const DesktopMenu = ({ name }) => {
-  const showMobileMenu = () => {
-    const menuMobile = document.querySelector('.menu__mobile');
-
-    if (menuMobile.classList[1] === 'show__menu') {
-      menuMobile.classList.remove('show__menu');
-    } else {
-      menuMobile.classList.add('show__menu');
-    }
-  };
-
   return (
-    <nav>
+    <nav className="">
       <ul>
         <div className={`link ${name == 'home' ? 'selected' : ''}`}>
           {' '}

@@ -37,9 +37,14 @@ body {
   display: flex;
   place-items: flex-start !important;
 }
+body .menu-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.4rem;
+}
 body .link {
   z-index: 999999;
-  margin: 0.8rem 0;
+  margin: 0.2rem 0;
   border: 0;
   outline: 0;
   padding: 0.3rem 0.5rem;
@@ -88,39 +93,6 @@ body header .header__menu__mobile .menu-trigger {
 }
 body header .header__menu__mobile .header__logo img {
   width: 3rem;
-}
-body header .header__menu__mobile .header__menu__icon .link {
-  z-index: 999999;
-  margin: 0.8rem 0;
-  border: 0;
-  outline: 0;
-  background-color: rgba(111, 114, 202, 0.2);
-  padding: 0.3rem 0.5rem;
-  border-radius: 0.4rem;
-}
-body header .header__menu__mobile .header__menu__icon .link:hover {
-  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.5);
-}
-body header .header__menu__mobile .header__menu__icon .link:hover .link-item {
-  color: white;
-}
-body header .header__menu__mobile .header__menu__icon .link.selected .link-item {
-  color: white;
-}
-body header .header__menu__mobile .header__menu__icon .link .link-item,
-body header .header__menu__mobile .header__menu__icon .link svg {
-  font-size: 1rem;
-  color: #a4a2b0;
-  transition: all 0.7s ease-in-out;
-}
-body header .header__menu__mobile .header__menu__icon .link .link-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-}
-body header .header__menu__mobile .header__menu__icon .link .link-item svg {
-  transform: translateY(0.1rem);
 }
 @media (min-width: 768px) {
   body header .header__menu__mobile .header__menu__icon {

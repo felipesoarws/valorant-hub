@@ -118,8 +118,14 @@ main.home__scss .main__title p {
   letter-spacing: 1px;
   font-size: 0.8rem;
 }
-main.home__scss .main__content {
-  margin: 1rem 1rem;
-  padding: 1rem;
-  width: 100%;
+main.home__scss .home__main__content {
+  margin: 2rem 0;
+}
+main.home__scss .home__main__content .main__content__news__item {
+  margin: 3rem 0;
+}
+main.home__scss .home__main__content .main__content__news__item__title h2 {
+  margin: 0.5rem 0;
+  color: white;
+  font-size: 1.4rem;
 }/*# sourceMappingURL=home.css.map */
