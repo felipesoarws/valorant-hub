@@ -11,6 +11,7 @@ import { BiWorld } from 'react-icons/bi';
 // hooks
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 const DesktopMenu = ({ name }) => {
   return (
     <nav className="">

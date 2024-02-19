@@ -1,12 +1,5 @@
+/* eslint-disable react/prop-types */
 import '../styles/reset.scss';
-
-// icons
-import { BiUserPin } from 'react-icons/bi';
-import { TbMapSearch } from 'react-icons/tb';
-import { RiKnifeLine } from 'react-icons/ri';
-import { AiOutlineTrophy } from 'react-icons/ai';
-import { FiHome } from 'react-icons/fi';
-import { BiWorld } from 'react-icons/bi';
 
 import { BiMenuAltRight } from 'react-icons/bi';
 
@@ -14,8 +7,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 

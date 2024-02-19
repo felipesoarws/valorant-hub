@@ -3,11 +3,6 @@ import '../styles/reset.scss';
 import '../styles/home/home.scss';
 
 // icons
-import { BiUserPin } from 'react-icons/bi';
-import { TbMapSearch } from 'react-icons/tb';
-import { RiKnifeLine } from 'react-icons/ri';
-import { BiMenuAltRight } from 'react-icons/bi';
-import { AiOutlineTrophy } from 'react-icons/ai';
 import { IoMdCalendar } from 'react-icons/io';
 
 // components
@@ -17,7 +12,7 @@ import MobileMenu from '@/components/MobileMenu';
 
 // hooks
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 // assets
 import valorantLOGO from '../assets/vlr_logo.png';

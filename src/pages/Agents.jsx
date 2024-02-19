@@ -2,13 +2,6 @@
 import '../styles/reset.scss';
 import '../styles/agents/agents.scss';
 
-// icons
-import { BiUserPin } from 'react-icons/bi';
-import { TbMapSearch } from 'react-icons/tb';
-import { RiKnifeLine } from 'react-icons/ri';
-import { BiMenuAltRight } from 'react-icons/bi';
-import { AiOutlineTrophy } from 'react-icons/ai';
-
 // hooks
 import { Link, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
