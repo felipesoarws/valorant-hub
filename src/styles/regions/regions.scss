@@ -11,6 +11,11 @@ main.regions__scss {
     flex-wrap: wrap;
     gap: 4rem;
 
+    @media (min-width: 1440px) {
+      margin-top: 3vw;
+      gap: 4vw;
+    }
+
     &__region {
       &__name {
         display: flex;
@@ -18,6 +23,10 @@ main.regions__scss {
         justify-content: flex-start;
         pointer-events: none;
         height: 4rem;
+
+        @media (min-width: 1440px) {
+          height: 4vw;
+        }
 
         h1 {
           font-family: 'Inter Tight', sans-serif;
@@ -28,6 +37,10 @@ main.regions__scss {
           @media screen and (min-width: 1024px) {
             font-size: 3rem;
           }
+
+          @media (min-width: 1440px) {
+            font-size: 3vw;
+          }
         }
 
         img {
@@ -35,8 +48,17 @@ main.regions__scss {
           transform: translateX(-2rem);
           opacity: 0.2;
 
+          @media (min-width: 1440px) {
+            width: 5vw;
+            transform: translateX(-2vw);
+          }
+
           &.na {
             transform: translate(-2rem, -1rem);
+
+            @media (min-width: 1440px) {
+              transform: translate(-2vw, -1vw);
+            }
           }
         }
       }
@@ -49,6 +71,10 @@ main.regions__scss {
             width: 25vw;
           }
 
+          @media (min-width: 1440px) {
+            margin: 2vw 0;
+          }
+
           .team__stats {
             padding: 1rem 1.5rem;
             background-color: rgba(111, 114, 202, 0.1);
@@ -58,6 +84,12 @@ main.regions__scss {
             justify-content: flex-start;
             gap: 2rem;
             transition: all 0.3s ease-in-out;
+
+            @media (min-width: 1440px) {
+              padding: 1vw 1.5vw;
+              border-radius: 0.4vw;
+              gap: 2vw;
+            }
 
             &:hover {
               box-shadow: 0 0 1px 2px rgba($color: white, $alpha: 0.4);
@@ -71,6 +103,10 @@ main.regions__scss {
                 color: white;
                 font-weight: 600;
                 font-size: 1.5rem;
+
+                @media (min-width: 1440px) {
+                  font-size: 1.5vw;
+                }
               }
             }
 
@@ -78,18 +114,30 @@ main.regions__scss {
               img {
                 transition: all 0.3s ease-in-out;
                 width: 3rem;
+
+                @media (min-width: 1440px) {
+                  width: 3vw;
+                }
               }
             }
 
             &__name {
               span {
                 color: #6f72ca;
+
+                @media (min-width: 1440px) {
+                  font-size: 0.78vw;
+                }
               }
 
               h3 {
                 color: white;
                 font-weight: 600;
                 font-size: 1.3rem;
+
+                @media (min-width: 1440px) {
+                  font-size: 1.3vw;
+                }
               }
             }
           }

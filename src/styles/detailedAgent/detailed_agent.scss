@@ -1,59 +1,3 @@
-.fade-out {
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 1)),
-    to(rgba(0, 0, 0, 0))
-  );
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-}
-
-.rec-carousel-wrapper {
-  background-color: transparent;
-
-  button {
-    background-color: transparent;
-    border: 0;
-
-    box-shadow: 0 0 0 0;
-  }
-}
-
-.kXteup,
-.hGRYOm {
-  background-color: transparent;
-}
-
-.kXteup:hover:enabled,
-.kXteup:focus:enabled,
-.hGRYOm:hover:enabled,
-.hGRYOm:focus:enabled {
-  color: white !important;
-  background-color: transparent !important;
-  box-shadow: 0 0 0 0 !important;
-}
-
-/* square buttons */
-.rec.rec-arrow {
-  border-radius: 0;
-}
-/* round buttons on hover */
-.rec.rec-arrow:hover {
-  border-radius: 51%;
-}
-
-/* hide disabled buttons */
-.rec.rec-arrow:disabled {
-  visibility: hidden;
-}
-/* disable default outline on focused items */
-/* add custom outline on focused items */
-.rec-carousel-item:focus {
-  outline: none;
-  box-shadow: inset 0 0 1px 1px lightgrey;
-}
-
 .main__title__error {
   display: flex;
   align-items: center;
@@ -74,32 +18,7 @@
 }
 
 body {
-  background-color: #1f2334;
-  position: relative;
   overflow: hidden;
-
-  @media (min-width: 1024px) {
-    padding: 1rem 7rem;
-  }
-}
-
-.bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  pointer-events: none;
-  overflow: hidden;
-
-  img {
-    height: 70vh;
-    opacity: 0.15;
-    object-fit: cover;
-
-    @media screen and (min-width: 768px) {
-      height: 50vh;
-    }
-  }
 }
 
 header.da__scss {
@@ -113,9 +32,17 @@ header.da__scss {
     padding: 2rem 2rem 0 2rem;
   }
 
+  @media (min-width: 1440px) {
+    padding: 2vw 2vw 0 2vw;
+  }
+
   .header__logo {
     img {
       width: 3rem;
+
+      @media (min-width: 1440px) {
+        width: 3vw;
+      }
     }
   }
 
@@ -127,6 +54,10 @@ header.da__scss {
       background: transparent;
       transition: all 0.3s ease-in-out;
       color: rgba(164, 162, 176, 0.4);
+
+      @media (min-width: 1440px) {
+        font-size: 3vw;
+      }
 
       &:hover {
         color: white;
@@ -151,6 +82,11 @@ main.da__scss {
     gap: 4rem;
   }
 
+  @media (min-width: 1440px) {
+    gap: 4vw;
+    margin: 1vw 2vw;
+  }
+
   .agent__bg {
     transform: translateY(-2rem) translateX(-1rem);
     position: relative;
@@ -158,6 +94,10 @@ main.da__scss {
 
     @media (min-width: 768px) {
       overflow: visible;
+    }
+
+    @media (min-width: 1440px) {
+      transform: translateY(-2vw) translateX(-1vw);
     }
 
     img.agent {
@@ -168,6 +108,10 @@ main.da__scss {
       @media (min-width: 768px) {
         height: 30rem;
       }
+
+      @media (min-width: 1440px) {
+        height: 30vw;
+      }
     }
   }
 
@@ -175,6 +119,11 @@ main.da__scss {
     position: absolute;
     top: 1rem;
     right: -8rem;
+
+    @media (min-width: 1440px) {
+      top: 1vw;
+      right: -8vw;
+    }
 
     img.agent-1 {
       height: 25rem;
@@ -189,6 +138,11 @@ main.da__scss {
       @media (min-width: 1024px) {
         height: 35rem;
         width: 35rem;
+      }
+
+      @media (min-width: 1440px) {
+        height: 35vw;
+        width: 35vw;
       }
     }
   }
@@ -211,13 +165,27 @@ main.da__scss {
       gap: 1rem;
     }
 
+    @media (min-width: 1440px) {
+      gap: 1vw;
+    }
+
     p {
       color: #a4a2b0;
       font-size: 0.8rem;
       margin: 0.2rem 0;
 
+      &::selection {
+        color: white;
+        background: #6f72ca;
+      }
+
       @media (min-width: 1024px) {
         font-size: 1rem;
+      }
+
+      @media (min-width: 1440px) {
+        font-size: 0.8vw;
+        margin: 0.2vw 0;
       }
     }
 
@@ -229,21 +197,39 @@ main.da__scss {
       font-size: 1.8rem;
       margin: 0.7rem 0;
 
+      &::selection {
+        color: white;
+        background: #6f72ca;
+      }
+
       @media (min-width: 768px) {
         text-align: left;
         font-size: 1.5rem;
         margin: 0.2rem 0;
       }
+
+      @media (min-width: 1440px) {
+        font-size: 1.5vw;
+        margin: 0.2vw 0;
+      }
     }
     .agent__details__desc {
       @media (min-width: 425px) {
         width: 20rem;
+
+        @media (min-width: 1440px) {
+          width: 20vw;
+        }
       }
     }
 
     .agent__details__abilities {
       @media (min-width: 768px) {
         width: 320px;
+      }
+
+      @media (min-width: 1440px) {
+        width: 20vw;
       }
     }
 
@@ -263,6 +249,10 @@ main.da__scss {
         gap: 1.7rem;
       }
 
+      @media (min-width: 1440px) {
+        gap: 1.7vw;
+      }
+
       .agent__details__ability {
         display: flex;
         align-items: center;
@@ -274,6 +264,11 @@ main.da__scss {
           text-align: center;
           width: 2.5rem;
           margin: 0.4rem 0;
+
+          @media (min-width: 1440px) {
+            width: 2.5vw;
+            margin: 0.4vw 0;
+          }
         }
       }
     }
@@ -281,6 +276,10 @@ main.da__scss {
     .agent__details__role {
       @media (min-width: 425px) {
         width: 20rem;
+
+        @media (min-width: 1440px) {
+          width: 20vw;
+        }
       }
     }
   }

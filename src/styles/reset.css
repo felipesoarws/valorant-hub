@@ -86,6 +86,7 @@ body {
   margin: 0;
   display: flex;
   place-items: flex-start !important;
+  background-color: #1f2334;
 }
 body .menu-content {
   background-color: rgba(0, 0, 0, 0.8);

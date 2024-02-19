@@ -1,53 +1,3 @@
-.fade-out {
-  -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-          mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-}
-
-.rec-carousel-wrapper {
-  background-color: transparent;
-}
-.rec-carousel-wrapper button {
-  background-color: transparent;
-  border: 0;
-  box-shadow: 0 0 0 0;
-}
-
-.kXteup,
-.hGRYOm {
-  background-color: transparent;
-}
-
-.kXteup:hover:enabled,
-.kXteup:focus:enabled,
-.hGRYOm:hover:enabled,
-.hGRYOm:focus:enabled {
-  color: white !important;
-  background-color: transparent !important;
-  box-shadow: 0 0 0 0 !important;
-}
-
-/* square buttons */
-.rec.rec-arrow {
-  border-radius: 0;
-}
-
-/* round buttons on hover */
-.rec.rec-arrow:hover {
-  border-radius: 51%;
-}
-
-/* hide disabled buttons */
-.rec.rec-arrow:disabled {
-  visibility: hidden;
-}
-
-/* disable default outline on focused items */
-/* add custom outline on focused items */
-.rec-carousel-item:focus {
-  outline: none;
-  box-shadow: inset 0 0 1px 1px lightgrey;
-}
-
 .main__title__error {
   display: flex;
   align-items: center;
@@ -66,34 +16,7 @@
 }
 
 body {
-  background-color: #1f2334;
-  position: relative;
   overflow: hidden;
-}
-@media (min-width: 1024px) {
-  body {
-    padding: 1rem 7rem;
-  }
-}
-
-.bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-.bg img {
-  height: 70vh;
-  opacity: 0.15;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-@media screen and (min-width: 768px) {
-  .bg img {
-    height: 50vh;
-  }
 }
 
 header.da__scss {
@@ -108,8 +31,18 @@ header.da__scss {
     padding: 2rem 2rem 0 2rem;
   }
 }
+@media (min-width: 1440px) {
+  header.da__scss {
+    padding: 2vw 2vw 0 2vw;
+  }
+}
 header.da__scss .header__logo img {
   width: 3rem;
+}
+@media (min-width: 1440px) {
+  header.da__scss .header__logo img {
+    width: 3vw;
+  }
 }
 header.da__scss .header__back_home button {
   border: 0;
@@ -118,6 +51,11 @@ header.da__scss .header__back_home button {
   background: transparent;
   transition: all 0.3s ease-in-out;
   color: rgba(164, 162, 176, 0.4);
+}
+@media (min-width: 1440px) {
+  header.da__scss .header__back_home button {
+    font-size: 3vw;
+  }
 }
 header.da__scss .header__back_home button:hover {
   color: white;
@@ -141,6 +79,12 @@ main.da__scss {
     gap: 4rem;
   }
 }
+@media (min-width: 1440px) {
+  main.da__scss {
+    gap: 4vw;
+    margin: 1vw 2vw;
+  }
+}
 main.da__scss .agent__bg {
   transform: translateY(-2rem) translateX(-1rem);
   position: relative;
@@ -149,6 +93,11 @@ main.da__scss .agent__bg {
 @media (min-width: 768px) {
   main.da__scss .agent__bg {
     overflow: visible;
+  }
+}
+@media (min-width: 1440px) {
+  main.da__scss .agent__bg {
+    transform: translateY(-2vw) translateX(-1vw);
   }
 }
 main.da__scss .agent__bg img.agent {
@@ -162,10 +111,21 @@ main.da__scss .agent__bg img.agent {
     height: 30rem;
   }
 }
+@media (min-width: 1440px) {
+  main.da__scss .agent__bg img.agent {
+    height: 30vw;
+  }
+}
 main.da__scss .agent__portrait {
   position: absolute;
   top: 1rem;
   right: -8rem;
+}
+@media (min-width: 1440px) {
+  main.da__scss .agent__portrait {
+    top: 1vw;
+    right: -8vw;
+  }
 }
 main.da__scss .agent__portrait img.agent-1 {
   height: 25rem;
@@ -182,6 +142,12 @@ main.da__scss .agent__portrait img.agent-1 {
   main.da__scss .agent__portrait img.agent-1 {
     height: 35rem;
     width: 35rem;
+  }
+}
+@media (min-width: 1440px) {
+  main.da__scss .agent__portrait img.agent-1 {
+    height: 35vw;
+    width: 35vw;
   }
 }
 main.da__scss .agent__details {
@@ -204,14 +170,33 @@ main.da__scss .agent__details {
     gap: 1rem;
   }
 }
+@media (min-width: 1440px) {
+  main.da__scss .agent__details {
+    gap: 1vw;
+  }
+}
 main.da__scss .agent__details p {
   color: #a4a2b0;
   font-size: 0.8rem;
   margin: 0.2rem 0;
 }
+main.da__scss .agent__details p::-moz-selection {
+  color: white;
+  background: #6f72ca;
+}
+main.da__scss .agent__details p::selection {
+  color: white;
+  background: #6f72ca;
+}
 @media (min-width: 1024px) {
   main.da__scss .agent__details p {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1440px) {
+  main.da__scss .agent__details p {
+    font-size: 0.8vw;
+    margin: 0.2vw 0;
   }
 }
 main.da__scss .agent__details h1 {
@@ -222,6 +207,14 @@ main.da__scss .agent__details h1 {
   font-size: 1.8rem;
   margin: 0.7rem 0;
 }
+main.da__scss .agent__details h1::-moz-selection {
+  color: white;
+  background: #6f72ca;
+}
+main.da__scss .agent__details h1::selection {
+  color: white;
+  background: #6f72ca;
+}
 @media (min-width: 768px) {
   main.da__scss .agent__details h1 {
     text-align: left;
@@ -229,14 +222,30 @@ main.da__scss .agent__details h1 {
     margin: 0.2rem 0;
   }
 }
+@media (min-width: 1440px) {
+  main.da__scss .agent__details h1 {
+    font-size: 1.5vw;
+    margin: 0.2vw 0;
+  }
+}
 @media (min-width: 425px) {
   main.da__scss .agent__details .agent__details__desc {
     width: 20rem;
   }
 }
+@media (min-width: 425px) and (min-width: 1440px) {
+  main.da__scss .agent__details .agent__details__desc {
+    width: 20vw;
+  }
+}
 @media (min-width: 768px) {
   main.da__scss .agent__details .agent__details__abilities {
     width: 320px;
+  }
+}
+@media (min-width: 1440px) {
+  main.da__scss .agent__details .agent__details__abilities {
+    width: 20vw;
   }
 }
 main.da__scss .agent__details .agent__details__abilities__row {
@@ -257,6 +266,11 @@ main.da__scss .agent__details .agent__details__abilities__row {
     gap: 1.7rem;
   }
 }
+@media (min-width: 1440px) {
+  main.da__scss .agent__details .agent__details__abilities__row {
+    gap: 1.7vw;
+  }
+}
 main.da__scss .agent__details .agent__details__abilities__row .agent__details__ability {
   display: flex;
   align-items: center;
@@ -269,8 +283,19 @@ main.da__scss .agent__details .agent__details__abilities__row .agent__details__a
   width: 2.5rem;
   margin: 0.4rem 0;
 }
+@media (min-width: 1440px) {
+  main.da__scss .agent__details .agent__details__abilities__row .agent__details__ability img {
+    width: 2.5vw;
+    margin: 0.4vw 0;
+  }
+}
 @media (min-width: 425px) {
   main.da__scss .agent__details .agent__details__role {
     width: 20rem;
+  }
+}
+@media (min-width: 425px) and (min-width: 1440px) {
+  main.da__scss .agent__details .agent__details__role {
+    width: 20vw;
   }
 }/*# sourceMappingURL=detailed_agent.css.map */

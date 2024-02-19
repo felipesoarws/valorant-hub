@@ -31,7 +31,7 @@ export default function Regions() {
       <div className="bg fade-out">
         <img src={valorantBG2} alt="background"></img>
       </div>
-
+      >
       <header>
         <div className="header__menu__mobile">
           <div className="header__logo">
