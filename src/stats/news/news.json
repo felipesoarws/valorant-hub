@@ -3,11 +3,165 @@
     "status": 200,
     "segments": [
       {
-        "title": "PRX, Global Esports advance on day three of Pacific Kickoff group stage",
+        "title": "Trace move onto playoffs after outliving Titan and Bilibili",
+        "description": "VCT China concluded the play-ins stage and Trace Esports came out on top.",
+        "date": "February 27, 2024",
+        "author": "redlight",
+        "url_path": "/309085/trace-move-onto-playoffs-after-outliving-titan-and-bilibili"
+      },
+      {
+        "title": "Sentinels earn final Americas Kickoff slot",
+        "description": "Despite going 1-1, Sentinels got a convincing win against MIBR and a close loss to G2, getting the team a playoff spot in the Americas Kickoff due to map differential.",
+        "date": "February 26, 2024",
+        "author": "weivy",
+        "url_path": "/308392/sentinels-earn-final-americas-kickoff-slot"
+      },
+      {
+        "title": "KCorp dominate EMEA Play-Ins",
+        "description": "KCorp defeated Vitality and KOI to reach the playoffs of EMEA Kickoff",
+        "date": "February 26, 2024",
+        "author": "FerahgoTheGreat",
+        "url_path": "/308258/kcorp-dominate-emea-play-ins"
+      },
+      {
+        "title": "Trace, Titan, BLG win to advance to VCT China Kickoff play-ins ",
+        "description": "Trace Esports,Titan Esports Club, BLG win to advance to VCT China Kickoff play-ins",
+        "date": "February 26, 2024",
+        "author": "Paulwall918",
+        "url_path": "/308035/trace-titan-blg-win-to-advance-to-vct-china-kickoff-play-ins"
+      },
+      {
+        "title": "Sentinels, MIBR, G2 advance to Americas Kickoff play-ins",
+        "description": "Cloud9, KRÜ, and Leviatán are now out of Americas Kickoff, while today's winners will play for the final playoffs start",
+        "date": "February 25, 2024",
+        "author": "PancakeGOAT",
+        "url_path": "/307605/sentinels-mibr-g2-advance-to-americas-kickoff-play-ins"
+      },
+      {
+        "title": "FPX, DRG, and EDG make Kickoff playoffs",
+        "description": "Three teams scraped by to make the VCT China Kickoff playoffs.",
+        "date": "February 25, 2024",
+        "author": "DavisEZ",
+        "url_path": "/307513/fpx-drg-and-edg-make-kickoff-playoffs"
+      },
+      {
+        "title": "Team Vitality, KOI, and Karmine Corp qualify for EMEA Kickoff play-ins",
+        "description": "All three group deciders for the VCT 2024 EMEA Kickoff went to three maps, with both overtimes and steamrolls across the match day.",
+        "date": "February 25, 2024",
+        "author": "weivy",
+        "url_path": "/307307/team-vitality-koi-and-karmine-corp-qualify-for-emea-kickoff-play-ins"
+      },
+      {
+        "title": "Gen.G continue streak to win Pacific Kickoff",
+        "description": "Gen.G continue upsets, now claiming Paper Rex's throne.",
+        "date": "February 25, 2024",
+        "author": "thothgow",
+        "url_path": "/307218/gen-g-continue-streak-to-win-pacific-kickoff"
+      },
+      {
+        "title": "Evil Geniuses debut with a 2-0 victory, move on to playoffs",
+        "description": "After a complete reconstruction, Evil Geniuses opened their 2024 season with a victory over G2 Esports and went on to the Kickoff playoffs.",
+        "date": "February 24, 2024",
+        "author": "redlight",
+        "url_path": "/307054/evil-geniuses-debut-with-a-2-0-victory-move-on-to-playoffs"
+      },
+      {
+        "title": "Nova, JD survive elimination in VCT China Kickoff",
+        "description": "TYLOO and All Gamers are eliminated.",
+        "date": "February 24, 2024",
+        "author": "tamagao",
+        "url_path": "/306850/nova-jd-survive-elimination-in-vct-china-kickoff"
+      },
+      {
+        "title": "Paper Rex, Gen.G clinch Madrid slot",
+        "description": "Titans rise and fall as Pacific's representatives for Madrid are set.",
+        "date": "February 24, 2024",
+        "author": "TMosura",
+        "url_path": "/306654/paper-rex-gen-g-clinch-madrid-slot"
+      },
+      {
+        "title": "FNATIC, NAVI inch closer to Madrid",
+        "description": "Two of EMEA's best are now one series away from going to Spain.",
+        "date": "February 24, 2024",
+        "author": "thothgow",
+        "url_path": "/306571/fnatic-navi-inch-closer-to-madrid"
+      },
+      {
+        "title": "NRG handle C9, LOUD survive Leviatán to qualify for playoffs",
+        "description": "Cloud9 and Leviatán will survive to play in their groups' decider matches, while NRG and LOUD will play next Saturday to qualify for Masters Madrid.",
+        "date": "February 23, 2024",
+        "author": "PancakeGOAT",
+        "url_path": "/306289/nrg-handle-c9-loud-survive-leviat-n-to-qualify-for-playoffs"
+      },
+      {
+        "title": "Titan, DRG, and Wolves pick up wins in debut matches",
+        "description": "JDG, All Gamers, and BLG are left one game away from elimination.",
+        "date": "February 23, 2024",
+        "author": "DavisEZ",
+        "url_path": "/305922/titan-drg-and-wolves-pick-up-wins-in-debut-matches"
+      },
+      {
+        "title": "Heretics to playoffs; Giants eliminated in EMEA",
+        "description": "Heretics dominated KCorp to set up a top four Kickoff run",
+        "date": "February 22, 2024",
+        "author": "FerahgoTheGreat",
+        "url_path": "/305649/heretics-to-playoffs-giants-eliminated-in-emea"
+      },
+      {
+        "title": "Trace and FPX win first VCT China matches",
+        "description": "Trace, FPX barely break a sweat in the China Kickoff opening match.",
+        "date": "February 22, 2024",
+        "author": "thothgow",
+        "url_path": "/305450/trace-and-fpx-win-first-vct-china-matches"
+      },
+      {
+        "title": "Gen.G defeat Team Secret and ZETA to make Pacific Kickoff playoffs",
+        "description": "After a nail-biting win over Team Secret and a clean sweep over ZETA, Gen.G locked their spot in the Pacific Kickoff playoffs.",
+        "date": "February 22, 2024",
+        "author": "weivy",
+        "url_path": "/305408/gen-g-defeat-team-secret-and-zeta-to-make-pacific-kickoff-playoffs"
+      },
+      {
+        "title": "Riot unveils VCT team capsules",
+        "description": "Team branded content is here for the Valorant Champions Tour.",
+        "date": "February 21, 2024",
+        "author": "FerahgoTheGreat",
+        "url_path": "/304615/riot-unveils-vct-team-capsules"
+      },
+      {
+        "title": "Heretics and KCorp open with wins in EMEA",
+        "description": "Heretics upset FUT despite a substitute player",
+        "date": "February 20, 2024",
+        "author": "FerahgoTheGreat",
+        "url_path": "/304463/heretics-and-kcorp-open-with-wins-in-emea"
+      },
+      {
+        "title": "DRX go to playoffs, Secret and Talon set to rematch",
+        "description": "DRX advance to playoffs while DetonatioN continue without a match win since June 2022",
+        "date": "February 20, 2024",
+        "author": "thothgow",
+        "url_path": "/304255/drx-go-to-playoffs-secret-and-talon-set-to-rematch"
+      },
+      {
+        "title": "MIBR, Sentinels stay alive in VCT 2024 Americas Kickoff",
+        "description": "Four teams entered this day on the brink of elimination, but it was MIBR and Sentinels that won, eliminating FURIA and 100 Thieves from the Americas Kickoff.",
+        "date": "February 19, 2024",
+        "author": "weivy",
+        "url_path": "/303807/mibr-sentinels-stay-alive-in-vct-2024-americas-kickoff"
+      },
+      {
+        "title": "paTiTek confirmed Heretics stand-in, RieNs to play from Istanbul",
+        "description": "paTiTek will play until Wo0t is of age; visa issues mean RieNs is forced to play remotely.",
+        "date": "February 19, 2024",
+        "author": "thothgow",
+        "url_path": "/303721/patitek-confirmed-heretics-stand-in-riens-to-play-from-istanbul"
+      },
+      {
+        "title": "PRX, Global Esports, T1 advance on day three of Pacific Kickoff group stage",
         "description": "PRX advance on day three of Pacific Kickoff group stage",
         "date": "February 19, 2024",
         "author": "Paulwall918",
-        "url_path": "/303226/prx-global-esports-advance-on-day-three-of-pacific-kickoff-group-stage"
+        "url_path": "/303226/prx-global-esports-t1-advance-on-day-three-of-pacific-kickoff-group-stage"
       },
       {
         "title": "G2 squeak out first VCT win over KRÜ in debut",
@@ -57,160 +211,6 @@
         "date": "February 16, 2024",
         "author": "weivy",
         "url_path": "/301135/nrg-cloud9-start-the-2024-americas-kickoff-strong"
-      },
-      {
-        "title": "xeta retires",
-        "description": "After eight years of competing, the South Korean talent has hung up his jersey.",
-        "date": "February 15, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/300619/xeta-retires"
-      },
-      {
-        "title": "Bazzi returns to Global Esports",
-        "description": "The Korean support returns just two days before the beginning of the season.",
-        "date": "February 14, 2024",
-        "author": "thothgow",
-        "url_path": "/300407/bazzi-returns-to-global-esports"
-      },
-      {
-        "title": "KOI finalize 2024 roster, grubinho joins",
-        "description": "The Spanish org confirms kamo and ShadoW, welcomes GRUBINHO to the lineup",
-        "date": "February 9, 2024",
-        "author": "thothgow",
-        "url_path": "/299341/koi-finalize-2024-roster-grubinho-joins"
-      },
-      {
-        "title": "G2 Gozen restructure with four",
-        "description": "The new iteration of G2 will debut next week.",
-        "date": "February 8, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/299241/g2-gozen-restructure-with-four"
-      },
-      {
-        "title": "DetonatioN FocusMe unveil revised roster, staff",
-        "description": "With under two weeks until Kickoff, DetonatioN FocusMe reunited a familiar core back together.",
-        "date": "February 5, 2024",
-        "author": "TMosura",
-        "url_path": "/298782/detonation-focusme-unveil-revised-roster-staff"
-      },
-      {
-        "title": "A battle between brothers is coming soon in VCT Pacific 2024",
-        "description": "An older brother, long FPS pro, joined competitive Valorant and will face his well-established younger brother in VCT Pacific 2024.",
-        "date": "February 4, 2024",
-        "author": "weivy",
-        "url_path": "/298732/a-battle-between-brothers-is-coming-soon-in-vct-pacific-2024"
-      },
-      {
-        "title": "Team SMG bid farewell to Game Changers roster",
-        "description": "The core is currently seeking a new organization to represent.",
-        "date": "February 4, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/298721/team-smg-bid-farewell-to-game-changers-roster"
-      },
-      {
-        "title": "VCT CN Kickoff format revealed",
-        "description": "11 teams will meet in the newly-built VCT CN venue as the regional leagues commence.",
-        "date": "February 1, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/298332/vct-cn-kickoff-format-revealed"
-      },
-      {
-        "title": "Kohaibi departs Team SMG",
-        "description": "Team SMG's in-game leader is looking for new opportunities following the end of her contract.",
-        "date": "February 1, 2024",
-        "author": "thothgow",
-        "url_path": "/298333/kohaibi-departs-team-smg"
-      },
-      {
-        "title": "Americas Kickoff details unveiled",
-        "description": "Riot have announced groups, schedule, and where to buy tickets for the Americas Kickoff.",
-        "date": "January 30, 2024",
-        "author": "thothgow",
-        "url_path": "/297497/americas-kickoff-details-unveiled"
-      },
-      {
-        "title": "trexx joins Vitality bench, Destrian to start at Kickoff",
-        "description": "Destrian's last dance with Vitality begins February 21.",
-        "date": "January 30, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/297558/trexx-joins-vitality-bench-destrian-to-start-at-kickoff"
-      },
-      {
-        "title": "Gen.G restructure staff, welcome solo as head coach",
-        "description": "The former teammates reunite on Gen.G's coaching staff",
-        "date": "January 30, 2024",
-        "author": "thothgow",
-        "url_path": "/297487/gen-g-restructure-staff-welcome-solo-as-head-coach"
-      },
-      {
-        "title": "VCT EMEA Kickoff to commence Feb 20",
-        "description": "Tickets will go on sale beginning February 2.",
-        "date": "January 29, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/297435/vct-emea-kickoff-to-commence-feb-20"
-      },
-      {
-        "title": "Riot announces 2024 VCT Pacific format",
-        "description": "The battle begins February 17.",
-        "date": "January 28, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/297260/riot-announces-2024-vct-pacific-format"
-      },
-      {
-        "title": "MxS release thief",
-        "description": "The Moist Moguls core is no more.",
-        "date": "January 28, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/297242/mxs-release-thief"
-      },
-      {
-        "title": "Evil Geniuses complete 2024 rebuild",
-        "description": "Will Evil Geniuses reach the same heights as last year?",
-        "date": "January 26, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/296898/evil-geniuses-complete-2024-rebuild"
-      },
-      {
-        "title": "Bleed and Disguised announce affiliate partnership",
-        "description": "Disguised move to Pacific to become BLEED's Affiliate team.",
-        "date": "January 25, 2024",
-        "author": "thothgow",
-        "url_path": "/296652/bleed-and-disguised-announce-affiliate-partnership"
-      },
-      {
-        "title": "Turtle Troop fortify defenses with stellar, corey",
-        "description": "After many roster moves throughout the off season, the troop have finalized their 2024 Challengers League starters.",
-        "date": "January 24, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/296555/turtle-troop-fortify-defenses-with-stellar-corey"
-      },
-      {
-        "title": "BONECOLD departs Team Vitality, retires",
-        "description": "After six months on the bench, the world champion has moved on from Team Vitality as well as competitive play.",
-        "date": "January 19, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/295829/bonecold-departs-team-vitality-retires"
-      },
-      {
-        "title": "FNATIC announce first affiliate partnership with Mandatory",
-        "description": "The London-based organization has announced their Affiliate Partner Team ahead of the VCT 2024.",
-        "date": "January 19, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/295828/fnatic-announce-first-affiliate-partnership-with-mandatory"
-      },
-      {
-        "title": "Talon reunite Surf and Crws",
-        "description": "The Thai duelist has reunited with an old teammate.",
-        "date": "January 19, 2024",
-        "author": "ChickenJoe",
-        "url_path": "/295823/talon-reunite-surf-and-crws"
-      },
-      {
-        "title": "Wolves Esports sign eight players",
-        "description": "Wolves Esports, known for their football team, officially entered Chinese Valorant with a whopping eight players.",
-        "date": "January 18, 2024",
-        "author": "redlight",
-        "url_path": "/295644/wolves-esports-sign-eight-players"
       }
     ]
   }
